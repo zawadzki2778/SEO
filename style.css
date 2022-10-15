@@ -7,12 +7,11 @@
 .container {
   max-width: 1600px;
   margin: 0 auto;
-  background-color: rgb(249, 255, 140); /* изменить на белый*/
+  background-color: #ffffff;
 }
 /* первая секция с контактами   */
 .header {
   display: flex;
-  justify-content: left;
   align-items: center;
   height: 104px;
 }
@@ -24,69 +23,69 @@
   flex-direction: column;
   margin-left: 13.42px;
 }
-.header-img2 {
+.header-name-img1 {
+  width: 128.62px;
+  height: 24.45px;
+}
+.header-name-img2 {
   margin-top: 4.22px;
+  height: 8.5px;
+  width: 123.93px;
 }
 .header-appeal {
   margin-left: 177px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
+  height: 20px;
+  width: 331px;
 }
 .header-phone {
-  margin-left: 97px;
+  margin-left: 95px;
   font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-  width: 148px;
-  height: 20px;
 }
 .header-phone-number {
   text-decoration: none; /* убрал подчёркивание номера телефона*/
   width: 148px;
   height: 20px;
-  /* font-family: "Montserrat"; */
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 20px;
   color: #212121;
   opacity: 0.7;
 }
 .header-button {
   display: flex;
-  /* justify-content: left; */
-  margin-right: 200px;
-  background-color: #ffffff;
-  height: 52px;
+  gap: 10px;
   width: 222px;
-  left: 326px;
-  top: 154px;
+  height: 52px;
+  border: 1px solid #ff5900 ;
   border-radius: 100px;
-  padding: 16px 28px 16px 28px;
-  /* color: #ff5900; */
+  margin-left: 40px;
+  margin-right: 200px;
+}
+.header-button-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 16px 28px;
+  width: 164.24px;
 }
 .header-button-img {
-  display: block;
-  height: 16.60px;
+  height: 16.6px;
   width: 16.57px;
   left: 1.76px;
   top: 1.66px;
-  border-radius: 0px;
   margin-right: 9.67px;
 }
-.header-button-text {
-  width: 138px;
-  height: 20px;
-  font-style: normal;
+.header-button-text1 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  color: #ff5900;
+  margin-right: 5px;
+}
+.header-button-text2 {
+  font-weight: 500;
+  font-size: 16px;
   color: #ff5900;
 }
