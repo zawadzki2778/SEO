@@ -2,27 +2,91 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .container {
   max-width: 1600px;
   margin: 0 auto;
+  background-color: rgb(249, 255, 140); /* изменить на белый*/
 }
+/* первая секция с контактами   */
 .header {
   display: flex;
+  justify-content: left;
+  align-items: center;
   height: 104px;
 }
 .header-logo {
-
+  margin-left: 200px;
 }
 .header-name {
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.42px;
 }
-.p-one {
-
-}
-.p-two {
-
+.header-img2 {
+  margin-top: 4.22px;
 }
 .header-appeal {
-
+  margin-left: 177px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-phone {
+  margin-left: 97px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 148px;
+  height: 20px;
+}
+.header-phone-number {
+  text-decoration: none; /* убрал подчёркивание номера телефона*/
+  width: 148px;
+  height: 20px;
+  /* font-family: "Montserrat"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  opacity: 0.7;
+}
+.header-button {
+  display: flex;
+  /* justify-content: left; */
+  margin-right: 200px;
+  background-color: #ffffff;
+  height: 52px;
+  width: 222px;
+  left: 326px;
+  top: 154px;
+  border-radius: 100px;
+  padding: 16px 28px 16px 28px;
+  /* color: #ff5900; */
+}
+.header-button-img {
+  display: block;
+  height: 16.60px;
+  width: 16.57px;
+  left: 1.76px;
+  top: 1.66px;
+  border-radius: 0px;
+  margin-right: 9.67px;
+}
+.header-button-text {
+  width: 138px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff5900;
 }
