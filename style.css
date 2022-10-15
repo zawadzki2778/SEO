@@ -136,4 +136,46 @@ a {
   height: 24px;
   margin-left: 43px;
 }
-
+/* третья секция комплексный интернет-магазин  */
+.marketing {
+  display: block;
+  position: relative;
+  background: url(./assets/img/fill.jpg);
+  height: 716px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+.marketing-complex {
+  display: block;
+  position: absolute;
+  width: 780px;
+  height: 150px;
+  margin-top: 170px;
+  margin-left: 200px;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.marketing-article {
+  display: block;
+  position: absolute;
+  height: 44px;
+  width: 780px;
+  margin-top: 348px;
+  margin-left: 200px;
+}
+.marketing-text {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
