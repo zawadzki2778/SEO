@@ -153,7 +153,7 @@ a {
   margin-top: 170px;
   margin-left: 200px;
 }
-h1 {
+.marketing-complex-header {
   font-family: Montserrat;
   font-size: 68px;
   font-weight: 700;
@@ -215,3 +215,60 @@ h1 {
   font-size: 18px;
   color: #ffffff;
 }
+/* четвёртая секция Найдём клиетво */
+.find {
+  display: block;
+  position: relative;
+  background: url(./assets/img/fill-2.jpg);
+  height: 789px;
+}
+.find-client {
+  display: block;
+  position: absolute;
+  height: 46px;
+  width: 854px;
+  margin-top: 120px;
+  margin-left: 346px;
+}
+.find-client-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+.find-article {
+  display: block;
+  position: absolute;
+  height: 66px;
+  width: 908px;
+  margin-top: 206px;
+  margin-left: 346px;
+}
+.find-article-text {
+  width: 908px;
+  height: 66px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.form {
+  display: block;
+  position: absolute;
+  height: 357px;
+  width: 630px;
+  margin-top: 312px;
+  margin-left: 485px;
+  background: #F4F4F4;
+}
+/* input, textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+  } */
