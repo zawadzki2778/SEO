@@ -136,7 +136,7 @@ a {
   height: 24px;
   margin-left: 43px;
 }
-/* третья секция комплексный интернет-магазин  */
+/* третья секция комплексный интернет-маркетинг */
 .marketing {
   display: block;
   position: relative;
@@ -171,11 +171,47 @@ h1 {
   margin-left: 200px;
 }
 .marketing-text {
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 500;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.btn-1 {
+  display: block;
+  position: absolute;
+  margin-top: 444px;
+  margin-left: 200px;
+  padding: 20px 40px;
+  width: 362px;
+  height: 62px;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border: none;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.btn-2 {
+  display: block;
+  position: absolute;
+  margin-top: 444px;
+  margin-left: 594px;
+  padding: 20px 40px;
+  width: 362px;
+  height: 62px;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2.5px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
 }
