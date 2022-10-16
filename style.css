@@ -140,7 +140,7 @@ a {
 .marketing {
   display: block;
   position: relative;
-  background: url(./assets/img/fill.jpg);
+  background: url(./assets/img/fill.jpg) center center/cover no-repeat;
   height: 716px;
   background-repeat: no-repeat;
   background-position: center 0;
@@ -217,6 +217,7 @@ a {
 }
 /*четвёртая секция Лучшие решения */
 .offers {
+  box-sizing: border-box;
   display: block;
   position: relative;
   height: 1386px;
@@ -239,16 +240,18 @@ a {
   text-align: left;
   color: #212121;
 }
-
 .offers-item {
   display: block;
   position: absolute;
   height: 502px;
   width: 360px;
-  background: #333333;
-  opacity: 0.3;
+  background: #f8f8f8;
+  /* opacity: 0.3; */
   border: 1px solid #333333;
 }
+/* .offers-item-img {
+  opacity: 1; /* убираю прозрачность для скачанных картинок
+}*/
 .one {
   margin-top: 226px;
   margin-left: 200px;
@@ -267,18 +270,155 @@ a {
 }
 .five {
   margin-top: 768px;
-  margin-left: 629px;
+  margin-left: 620px;
 }
 .six {
   margin-top: 768px;
   margin-left: 1040px;
+}
+.item-title {
+  /* общие стили для заголовков карточки */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.title-one {
+  min-height: 50px;
+  min-width: 277px;
+  margin: 32px 41.5px 0;
+}
+.item-text {
+  /* общие стили для текстов карточки */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #212121;
+  opacity: 0.5;
+}
+.text-one {
+  min-height: 80px;
+  min-width: 312px;
+  margin: 20px 24px 0;
+  margin: 20px 24px 0;
+}
+.img-line {
+  height: 1px;
+  width: 312px;
+  background: #333333;
+  opacity: 0.2;
+  margin: 20px 24px 0;
+}
+.price-one {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 31.83px;
+}
+.price-img {
+  /* общие стили для иконки Рубля */
+  height: 21.91px;
+  width: 20.91px;
+  color: #ff5900;
+  opacity: 0.5;
+}
+.pice-img-one {
+}
+.price-rub {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff5900;
+}
+.price-rub-one {
+  height: 25px;
+  width: 126px;
+  margin-left: 22px;
+}
+/* --- блок со скидками и подарками --- */
+.discounts-one {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 24.85px;
+}
+.discounts-img {
+}
+.discounts-img-one {
+}
+.discounts-content {
+  margin-left: 12px;
+}
+.discounts-content-one {
+}
+.discounts-content-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #212121;
+  opacity: 0.5;
+}
+.discounts-content-price-one {
+  height: 22px;
+  width: 107px;
+}
+.discounts-content-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 20px; */
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212121;
+}
+.discounts-content-text-one {
+}
+.detailed {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 17px;
+  width: 86px;
+  margin-top: 32px;
+  margin-left: 214px;
+}
+.detailed-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff5900;
+}
+.detailed-img {
+  width: 28px;
+  color: #ff5900;
+  margin-left: 8px;
 }
 
 /* пятая секция Найдём клиетво */
 .find {
   display: block;
   position: relative;
-  background: url(./assets/img/fill-2.jpg);
+  background: url(./assets/img/fill-2.jpg) center center/cover no-repeat;
   height: 789px;
 }
 .find-client {
