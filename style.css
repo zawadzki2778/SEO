@@ -504,12 +504,21 @@ a {
   align-items: top;
   height: 583px;
   width: 1600px;
-  background-color: #f4f4f4;
+  background-color: #333333;
+}
+h4 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: left;
+  opacity: 0.5;
+  color: #ffffff;
 }
 /* -- первый блок -- */
 .footer-one {
   min-width: 193px;
-  min-height: 292px;
+  height: 330px;
   margin-top: 100px;
   margin-left: 200px;
   background: #333333;
@@ -572,27 +581,56 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100px;
+  height: 40px;
   margin-top: 28px;
 }
+.Telegram {
+  margin-left: 20px;
+}
+/* -- второй блок -- */
 
 .footer-two {
-  width: 204px;
-  height: 292px;
+  min-width: 228px;
+  height: 360px;
   margin-top: 100px;
   margin-left: 167px;
   background: #333333;
 }
+
+.footer-offers,
+.footer-abilities,
+.footer-about {
+  /* общие стили */
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+.footer-item {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+/* -- третий блок -- */
 .footer-three {
-  width: 210px;
-  height: 292px;
+  min-width: 210px;
+  height: 330px;
   margin-top: 100px;
   margin-left: 107px;
   background: #333333;
 }
 .footer-four {
-  width: 188px;
-  height: 292px;
+  min-width: 188px;
+  height: 330px;
   margin-top: 100px;
   margin-left: 107px;
   background: #333333;
+}
+.line {
+  
+  width: 1200px;
+  margin-top: 532px;
+  border-top: 1px solid #ffffff;
 }
