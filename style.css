@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .container {
   max-width: 1600px;
@@ -240,18 +241,15 @@ a {
   text-align: left;
   color: #212121;
 }
-.offers-item {
+.offers-item { /* лбщие стили для всех карточек */
   display: block;
   position: absolute;
   height: 502px;
   width: 360px;
   background: #f8f8f8;
   /* opacity: 0.3; */
-  border: 1px solid #333333;
+  border: 1px solid  rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
 }
-/* .offers-item-img {
-  opacity: 1; /* убираю прозрачность для скачанных картинок
-}*/
 .one {
   margin-top: 226px;
   margin-left: 200px;
@@ -328,8 +326,6 @@ a {
   /* общие стили для иконки Рубля */
   height: 21.91px;
   width: 20.91px;
-  color: #ff5900;
-  opacity: 0.5;
 }
 .pice-img-one {
 }
@@ -403,8 +399,7 @@ a {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
-  line-height: 17px;
-  letter-spacing: 0em;
+  line-height: 120%;
   text-align: left;
   color: #ff5900;
 }
