@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: 1600px;
@@ -19,16 +19,19 @@
 .header-logo {
   margin-left: 200px;
 }
-.header-name {
+.header-name,
+.footer-name {
   display: flex;
   flex-direction: column;
   margin-left: 13.42px;
 }
-.header-name-img1 {
+.header-name-img-1,
+.footer-name-img-1 {
   width: 128.62px;
   height: 24.45px;
 }
-.header-name-img2 {
+.header-name-img-2,
+.footer-name-img-2 {
   margin-top: 4.22px;
   height: 8.5px;
   width: 123.93px;
@@ -241,16 +244,10 @@ a {
   text-align: left;
   color: #212121;
 }
-.offers-item { /* лбщие стили для всех карточек */
-  display: block;
-  position: absolute;
-  height: 502px;
-  width: 360px;
-  background: #f8f8f8;
-  /* opacity: 0.3; */
-  border: 1px solid  rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
-}
+
 .one {
+  display: block;
+  position: relative;
   margin-top: 226px;
   margin-left: 200px;
 }
@@ -273,6 +270,17 @@ a {
 .six {
   margin-top: 768px;
   margin-left: 1040px;
+}
+/* ---------- вторая карточка ---------------  */
+.offers-item {
+  /* cбщие стили для всех карточек */
+  display: block;
+  position: absolute;
+  height: 502px;
+  width: 360px;
+  background: #f8f8f8;
+  /* opacity: 0.3; */
+  border: 1px solid rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
 }
 .item-title {
   /* общие стили для заголовков карточки */
@@ -306,7 +314,6 @@ a {
   min-height: 80px;
   min-width: 312px;
   margin: 20px 24px 0;
-  margin: 20px 24px 0;
 }
 .img-line {
   height: 1px;
@@ -327,8 +334,8 @@ a {
   height: 21.91px;
   width: 20.91px;
 }
-.pice-img-one {
-}
+/* .pice-img-one {
+} */
 .price-rub {
   font-family: Montserrat;
   font-size: 18px;
@@ -351,15 +358,15 @@ a {
   margin-top: 15px;
   margin-left: 24.85px;
 }
-.discounts-img {
+/* .discounts-img {
 }
 .discounts-img-one {
-}
+} */
 .discounts-content {
   margin-left: 12px;
 }
-.discounts-content-one {
-}
+/* .discounts-content-one {
+} */
 .discounts-content-price {
   font-family: "Montserrat";
   font-style: normal;
@@ -376,6 +383,7 @@ a {
   width: 107px;
 }
 .discounts-content-text {
+  /* общие стили */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -384,16 +392,16 @@ a {
   text-align: left;
   color: #212121;
 }
-.discounts-content-text-one {
-}
-.detailed {
-  display: flex;
-  justify-content: left;
-  align-items: center;
+/* .discounts-content-text-one {
+} */
+.detailed-one,
+.detailed-two {
+  display: block;
+  position: absolute;
   height: 17px;
   width: 86px;
-  margin-top: 32px;
   margin-left: 214px;
+  margin-bottom: 20px;
 }
 .detailed-text {
   font-family: Montserrat;
@@ -404,12 +412,39 @@ a {
   color: #ff5900;
 }
 .detailed-img {
+  display: block;
   width: 28px;
   color: #ff5900;
+  text-align: left;
   margin-left: 8px;
 }
+/* ---------- вторая карточка ---------------  */
+.title-two {
+  min-height: 25px;
+  min-width: 270px;
+  margin: 31px 45px 45px 0;
+}
+.text-two {
+  min-height: 80px;
+  min-width: 312px;
+  margin: 45px 24px 0;
+}
+.discounts-one {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 24.85px;
+}
+.discounts-img-two {
+  margin-bottom: 19px;
+}
+.discounts-content-text-two {
+  min-height: 60px;
+  width: 229px;
+  text-align: left;
+}
 
-/* пятая секция Найдём клиетво */
 .find {
   display: block;
   position: relative;
@@ -461,8 +496,103 @@ a {
   margin-left: 485px;
   background: #f4f4f4;
 }
-/* input, textarea {
-  outline: none;
-  border: none;
-  border: solid 1px #f2f2f2;
-  } */
+
+/* -----------ПОДВАЛ-----------  */
+.footer {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  height: 583px;
+  width: 1600px;
+  background-color: #f4f4f4;
+}
+/* -- первый блок -- */
+.footer-one {
+  min-width: 193px;
+  min-height: 292px;
+  margin-top: 100px;
+  margin-left: 200px;
+  background: #333333;
+}
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer-logo {
+  height: 48px;
+  width: 43px;
+}
+.footer-region {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 57px;
+}
+.region-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: Medium;
+  opacity: 50%;
+  color: #ffffff;
+}
+.city {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-left: 4px;
+  color: #ffffff;
+  /* задаю подчёркивание ссылки и отступ*/
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+}
+.footer-contact {
+  height: 48px;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  color: #ffffff;
+}
+.footer-INN {
+  height: 48px;
+  min-width: 158px;
+  margin-top: 12px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 28px;
+}
+
+.footer-two {
+  width: 204px;
+  height: 292px;
+  margin-top: 100px;
+  margin-left: 167px;
+  background: #333333;
+}
+.footer-three {
+  width: 210px;
+  height: 292px;
+  margin-top: 100px;
+  margin-left: 107px;
+  background: #333333;
+}
+.footer-four {
+  width: 188px;
+  height: 292px;
+  margin-top: 100px;
+  margin-left: 107px;
+  background: #333333;
+}
