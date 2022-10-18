@@ -39,20 +39,46 @@ body {
   min-height: 100%;
   overflow: hidden;
 }
-._container { /* будем подставлять в вёрстку секций /блоков для ограничения*/
+._container { /* техн.класс, будем подставлять в вёрстку секций /блоков для ограничения*/
   max-width: 1600px;
   margin: 0px auto;
 }
-/* первая секция с контактами   */
+/* -----первая секция с контактами --------*/
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 200px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
   width: 1200px;
   height: 104px;
 }
+.header__container {
+  min-height: 184px;
+}
+.header__about {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+.header__logo {
 
+}
+.name__logo {
+
+}
+.name__content {
+
+}
+.name__img-1 {
+
+}
+.name__img-2 {
+
+}
+
+
+/*
 .header-name,
 .footer-name {
   display: flex;
@@ -71,7 +97,7 @@ body {
   width: 123.93px;
 }
 .header-title {
-  /* margin-left: 177px; */
+  margin-left: 177px;
   font-family: Montserrat;
   font-style: normal;
   font-size: 14px;
@@ -79,9 +105,9 @@ body {
   height: 20px;
   width: 331px;
 }
-/* .header-phone {
+.header-phone {
   margin-left: 92px;
-} */
+}
 .header-phone-number {
   min-width: 148px;
   height: 20px;
@@ -131,8 +157,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #ff5900;
-}
+} */
+
 /* вторая секция с меню */
+/*
 .menu {
   display: flex;
   justify-content: space-between;
@@ -155,7 +183,7 @@ a {
   justify-content: start;
   align-items: center;
   /* margin-left: 200px; */
-}
+/*
 .menu-impruve-img {
   margin-left: 4px;
 }
@@ -172,11 +200,11 @@ a {
   width: 24px;
   height: 24px;
   /* margin-left: 43px; */
-}
+
 /* третья секция комплексный интернет-маркетинг */
+/*
 .marketing {
-  /* display: block;
-  position: relative; */
+ 
   background: url(./assets/img/fill.jpg) center center/ cover no-repeat;
   height: 716px;
   max-width: 1600px;
@@ -251,9 +279,9 @@ a {
   font-weight: 500;
   font-size: 18px;
   color: #ffffff;
-}
+}*/
 /*четвёртая секция Лучшие решения */
-.offers {
+/* .offers {
   box-sizing: border-box;
   display: block;
   position: relative;
@@ -303,20 +331,20 @@ a {
 .six {
   margin-top: 768px;
   margin-left: 1040px;
-}
+} */
 /* ---------- вторая карточка ---------------  */
+/*
 .offers-item {
-  /* cбщие стили для всех карточек */
   display: block;
   position: absolute;
   height: 502px;
   width: 360px;
   background: #f8f8f8;
-  /* opacity: 0.3; */
   border: 1px solid rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
+  /*
 }
 .item-title {
-  /* общие стили для заголовков карточки */
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -333,7 +361,7 @@ a {
   margin: 32px 41.5px 0;
 }
 .item-text {
-  /* общие стили для текстов карточки */
+ 
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -363,12 +391,11 @@ a {
   margin-left: 31.83px;
 }
 .price-img {
-  /* общие стили для иконки Рубля */
+
   height: 21.91px;
   width: 20.91px;
 }
-/* .pice-img-one {
-} */
+
 .price-rub {
   font-family: Montserrat;
   font-size: 18px;
@@ -383,7 +410,7 @@ a {
   width: 126px;
   margin-left: 22px;
 }
-/* --- блок со скидками и подарками --- */
+
 .discounts-one {
   display: flex;
   justify-content: left;
@@ -395,11 +422,11 @@ a {
 }
 .discounts-img-one {
 } */
+/*
 .discounts-content {
   margin-left: 12px;
 }
-/* .discounts-content-one {
-} */
+
 .discounts-content-price {
   font-family: "Montserrat";
   font-style: normal;
@@ -416,17 +443,16 @@ a {
   width: 107px;
 }
 .discounts-content-text {
-  /* общие стили */
+
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
-  /* line-height: 20px; */
+ 
   letter-spacing: 0em;
   text-align: left;
   color: #212121;
 }
-/* .discounts-content-text-one {
-} */
+
 .detailed-one,
 .detailed-two {
   display: block;
@@ -450,8 +476,9 @@ a {
   color: #ff5900;
   text-align: left;
   margin-left: 8px;
-}
+}*/
 /* ---------- вторая карточка ---------------  */
+/*
 .title-two {
   min-height: 25px;
   min-width: 270px;
@@ -528,9 +555,10 @@ a {
   margin-top: 312px;
   margin-left: 485px;
   background: #f4f4f4;
-}
+}*/
 
 /* -----------ПОДВАЛ-----------  */
+/*
 .footer {
   display: flex;
   justify-content: left;
@@ -547,8 +575,9 @@ h4 {
   align-items: left;
   opacity: 0.5;
   color: #ffffff;
-}
+}*/
 /* -- первый блок -- */
+/*
 .footer-one {
   min-width: 193px;
   height: 330px;
@@ -586,7 +615,7 @@ h4 {
   margin-top: 3px;
   margin-left: 4px;
   color: #ffffff;
-  /* задаю подчёркивание ссылки и отступ*/
+  
   border-bottom: 1px solid #ffffff;
   padding-bottom: 2px;
 }
@@ -619,9 +648,9 @@ h4 {
 }
 .Telegram {
   margin-left: 20px;
-}
+}*/
 /* -- второй блок -- */
-
+/*
 .footer-two {
   min-width: 228px;
   height: 360px;
@@ -633,7 +662,7 @@ h4 {
 .footer-offers,
 .footer-abilities,
 .footer-about {
-  /* общие стили */
+  
   display: flex;
   flex-direction: column;
   margin-top: 24px;
@@ -645,8 +674,9 @@ h4 {
   line-height: 24px;
   text-align: left;
   color: #ffffff;
-}
+}*/
 /* -- третий блок -- */
+/*
 .footer-three {
   min-width: 210px;
   height: 330px;
@@ -666,3 +696,4 @@ h4 {
   margin-top: 532px;
   border-top: 1px solid #ffffff;
 }
+*/
