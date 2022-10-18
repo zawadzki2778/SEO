@@ -31,52 +31,103 @@ h6 {
 html,
 body {
   height: 100%;
-  line-height: 1;
-  font-size: 16px;
-  color: #000;
+  /* прописываю наиболее часто исп. шрифт и его х-ки */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
 }
 .wrapper {
   min-height: 100%;
   overflow: hidden;
 }
-._container { /* техн.класс, будем подставлять в вёрстку секций /блоков для ограничения*/
+._container {
+  /* техн.класс, будем подставлять в вёрстку секций /блоков для ограничения*/
   max-width: 1600px;
   margin: 0px auto;
+  /* при суженни экрана будут появлятся отступы, что бы не было прилипания */
+  /* padding: 0px 15px; */
+  /* box-sizing: content-box; */
 }
 /* -----первая секция с контактами --------*/
 .header {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   left: 0;
   top: 0;
   z-index: 50;
-  width: 1200px;
+  max-width: 1200px;
   height: 104px;
+  margin: 0 auto;
 }
 .header__container {
   min-height: 184px;
 }
 .header__about {
   display: flex;
+  justify-content: left;
   min-height: 104px;
   align-items: center;
+  flex-wrap: wrap; /* длчя переноса эл-ов при уменьшении экрана */
+  margin: 0px auto;
 }
 .header__logo {
-
-}
-.name__logo {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .name__content {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 129px;
+  margin: 0 0 0 13.42px;
 }
-.name__img-1 {
-
+.img__2 {
+  margin-top: 4.22px;
 }
-.name__img-2 {
-
+.header__title {
+  margin: 0 0 0 177px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.7;
 }
-
+.header__phone {
+  height: 20px;
+  min-width: 148px;
+  top: 16px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+  opacity: 0.7;
+  margin-left: 122px;
+}
+.header__btn {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 40px;
+  background-color: #ffffff;
+  height: 52px;
+  width: 222px;
+  border-radius: 100px;
+  padding: 16px 28px 16px 28px;
+  border: 1px solid #ff5900;
+}
+.btn__icon {
+  width: 16.5px;
+  height: 16.5px;
+  margin-right: 9.5px;
+}
+.btn__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ff5900;
+}
 
 /*
 .header-name,
@@ -341,7 +392,7 @@ a {
   width: 360px;
   background: #f8f8f8;
   border: 1px solid rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
-  /*
+/*
 }
 .item-title {
 
