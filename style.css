@@ -48,7 +48,7 @@ body {
   /* padding: 0px 15px; */
   /* box-sizing: content-box; */
 }
-/* -----первая секция с контактами --------*/
+/* -----ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------*/
 .header {
   /* position: absolute; */
   width: 100%;
@@ -128,87 +128,42 @@ body {
   text-align: center;
   color: #ff5900;
 }
-
-/*
-.header-name,
-.footer-name {
+/* -----ВТОРАЯ СЕКЦИЯ МЕНЮ --------*/
+.header__menu {
   display: flex;
-  flex-direction: column;
-  margin-left: 13.42px;
+  justify-content: left;
+  align-items: center;
+  min-height: 80px;
+  flex-wrap: wrap; /* длчя переноса эл-ов при уменьшении экрана */
+  margin: 0px auto;
 }
-.header-name-img-1,
-.footer-name-img-1 {
-  width: 128.62px;
-  height: 24.45px;
+.menu__item {
+  margin: 0 0 0 40px;
 }
-.header-name-img-2,
-.footer-name-img-2 {
-  margin-top: 4.22px;
-  height: 8.5px;
-  width: 123.93px;
+.menu__item_first {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
 }
-.header-title {
-  margin-left: 177px;
+.menu__item_last {
+  margin-left: 46px;
+}
+.menu__link {
   font-family: Montserrat;
   font-style: normal;
   font-size: 14px;
-  font-weight: 400;
-  height: 20px;
-  width: 331px;
-}
-.header-phone {
-  margin-left: 92px;
-}
-.header-phone-number {
-  min-width: 148px;
-  height: 20px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-transform: uppercase;
   color: #212121;
-  opacity: 0.7;
 }
-.header-button {
-  display: flex;
-  gap: 10px;
-  width: 222px;
-  height: 52px;
-  border: 1px solid #ff5900;
-  border-radius: 100px;
-  margin-left: 40px;
-  margin-right: 200px;
+.menu__img_first {
+  margin-left: 4px;
+  cursor: pointer;
 }
-.header-button-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 16px 28px;
-  width: 164.24px;
-}
-.header-button-img {
-  height: 16.6px;
-  width: 16.57px;
-  left: 1.76px;
-  top: 1.66px;
-  margin-right: 9.67px;
-}
-.header-button-text1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ff5900;
-  margin-right: 5px;
-}
-.header-button-text2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ff5900;
-} */
 
 /* вторая секция с меню */
 /*
