@@ -39,16 +39,16 @@ body {
   min-height: 100%;
   overflow: hidden;
 }
-.container {
+._container { /* будем подставлять в вёрстку секций /блоков для ограничения*/
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 /* первая секция с контактами   */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0px 200px;
   width: 1200px;
   height: 104px;
 }
@@ -70,7 +70,7 @@ body {
   height: 8.5px;
   width: 123.93px;
 }
-.header-appeal {
+.header-title {
   /* margin-left: 177px; */
   font-family: Montserrat;
   font-style: normal;
@@ -137,9 +137,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
   width: 1200px;
   height: 80px;
-  margin: 0 200px;
+  
 }
 a {
   font-family: Montserrat;
@@ -174,12 +175,12 @@ a {
 }
 /* третья секция комплексный интернет-маркетинг */
 .marketing {
-  display: block;
-  position: relative;
-  background: url(./assets/img/fill.jpg) center center/cover no-repeat;
+  /* display: block;
+  position: relative; */
+  background: url(./assets/img/fill.jpg) center center/ cover no-repeat;
   height: 716px;
-  background-repeat: no-repeat;
-  background-position: center 0;
+  max-width: 1600px;
+
 }
 .marketing-complex {
   display: block;
