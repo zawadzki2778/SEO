@@ -109,10 +109,10 @@ body {
 .header__btn {
   display: flex;
   align-items: center;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 39px;
   background-color: #ffffff;
   height: 52px;
-  width: 222px;
+  width: 223px;
   border-radius: 100px;
   padding: 16px 28px 16px 28px;
   border: 1px solid #ff5900;
@@ -168,29 +168,30 @@ body {
   margin-left: 4px;
   cursor: pointer;
 }
-/* третья секция комплексный интернет-маркетинг */
+
+/* --------третья секция MAIN----------*/
+
 .main {
   flex: 1 1 auto;
 }
-._container {
-  max-width: 1600px;
-  margin: 0px auto;
-}
 .main-block {
-  position: relative;
   background: url(./assets/img/fill.jpg) center center/ cover no-repeat;
-  height: 716px;
-  max-width: 1600px;
+  min-height: 716px;
+  background-size: contain; /* чтобы изображение не уходило за границы блока */
+}
+.main-block__wrap {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .main-block__body {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: left;
   height: 336px;
-  width: 777.57px;
-  margin-top: 170px;
-  margin-left: 200px;
+  max-width: 777.57px;
+  padding-top: 170px;
 }
 .main-block__title {
   font-family: Montserrat;
@@ -235,42 +236,6 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #ffffff;
   backdrop-filter: blur(2.5px);
-}
-
-
-.marketing-complex {
-  display: block;
-  position: absolute;
-  width: 780px;
-  height: 150px;
-  margin-top: 170px;
-  margin-left: 200px;
-}
-.marketing-complex-title {
-  font-family: Montserrat;
-  font-size: 68px;
-  font-weight: 700;
-  line-height: 75px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
-}
-.marketing-article {
-  display: block;
-  position: absolute;
-  height: 44px;
-  width: 780px;
-  margin-top: 348px;
-  margin-left: 200px;
-}
-.marketing-text {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
 }
 
 /*четвёртая секция Лучшие решения */
@@ -550,28 +515,13 @@ body {
   background: #f4f4f4;
 }*/
 
-/* -----------ПОДВАЛ-----------  */
+/* --------------------ПОДВАЛ----------------  */
 
-.footer {
-  display: flex;
-  justify-content: left;
-  align-items: top;
-  height: 583px;
-  width: 1600px;
-  background-color: #333333;
-}
-h4 {
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  align-items: left;
-  opacity: 0.5;
-  color: #ffffff;
-}
+
+
 /* -- первый блок -- */
 
-.footer-one {
+/* .footer-one {
   min-width: 193px;
   height: 330px;
   margin-top: 100px;
@@ -641,11 +591,11 @@ h4 {
 }
 .Telegram {
   margin-left: 20px;
-}
-*/
+} */
+
 /* -- второй блок -- */
 
-.footer-two {
+/* .footer-two {
   min-width: 228px;
   height: 360px;
   margin-top: 100px;
@@ -670,7 +620,7 @@ h4 {
 }
 /* -- третий блок -- */
 
-.footer-three {
+/* .footer-three {
   min-width: 210px;
   height: 330px;
   margin-top: 100px;
@@ -688,4 +638,4 @@ h4 {
   width: 1200px;
   margin-top: 532px;
   border-top: 1px solid #ffffff;
-}
+}  */
