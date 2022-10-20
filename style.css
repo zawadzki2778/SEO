@@ -10,6 +10,7 @@
 }
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 ul,
 ol,
@@ -35,6 +36,7 @@ body {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
+  color: #ffffff;
 }
 .wrapper {
   min-height: 100%;
@@ -57,7 +59,6 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 50;
   max-width: 1200px;
   height: 184px;
   margin: 0 auto;
@@ -169,15 +170,15 @@ body {
   cursor: pointer;
 }
 
-/* --------третья секция MAIN----------*/
+/* ----------третья секция MAIN------------*/
 
 .main {
   flex: 1 1 auto;
 }
 .main-block {
-  background: url(./assets/img/fill.jpg) center center/ cover no-repeat;
+  background: url(./assets/img/fill.jpg) 50% / cover no-repeat;
   min-height: 716px;
-  background-size: contain; /* чтобы изображение не уходило за границы блока */
+  background-size: cover; /*чтобы изображение не уходило за границы блока */
 }
 .main-block__wrap {
   display: flex;
@@ -238,362 +239,91 @@ body {
   backdrop-filter: blur(2.5px);
 }
 
-/*четвёртая секция Лучшие решения */
-/* .offers {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  height: 1386px;
-  background-color: #f8f8f8;
-}
-.offers-solution {
-  display: block;
-  position: absolute;
-  width: 885px;
-  height: 46px;
-  margin-top: 120px;
-  margin-left: 200px;
-}
-.offers-solution-title {
-  font-family: Montserrat;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 46px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #212121;
-}
-
-.one {
-  display: block;
-  position: relative;
-  margin-top: 226px;
-  margin-left: 200px;
-}
-.two {
-  margin-top: 226px;
-  margin-left: 620px;
-}
-.three {
-  margin-top: 226px;
-  margin-left: 1040px;
-}
-.four {
-  margin-top: 768px;
-  margin-left: 200px;
-}
-.five {
-  margin-top: 768px;
-  margin-left: 620px;
-}
-.six {
-  margin-top: 768px;
-  margin-left: 1040px;
-} */
-/* ---------- вторая карточка ---------------  */
-/*
-.offers-item {
-  display: block;
-  position: absolute;
-  height: 502px;
-  width: 360px;
-  background: #f8f8f8;
-  border: 1px solid rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
-/*
-}
-.item-title {
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #212121;
-}
-.title-one {
-  min-height: 50px;
-  min-width: 277px;
-  margin: 32px 41.5px 0;
-}
-.item-text {
- 
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #212121;
-  opacity: 0.5;
-}
-.text-one {
-  min-height: 80px;
-  min-width: 312px;
-  margin: 20px 24px 0;
-}
-.img-line {
-  height: 1px;
-  width: 312px;
-  background: #333333;
-  opacity: 0.2;
-  margin: 20px 24px 0;
-}
-.price-one {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-top: 25px;
-  margin-left: 31.83px;
-}
-.price-img {
-
-  height: 21.91px;
-  width: 20.91px;
-}
-
-.price-rub {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 25px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ff5900;
-}
-.price-rub-one {
-  height: 25px;
-  width: 126px;
-  margin-left: 22px;
-}
-
-.discounts-one {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-top: 15px;
-  margin-left: 24.85px;
-}
-/* .discounts-img {
-}
-.discounts-img-one {
-} */
-/*
-.discounts-content {
-  margin-left: 12px;
-}
-
-.discounts-content-price {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 120%;
-  text-align: center;
-  text-decoration-line: line-through;
-  color: #212121;
-  opacity: 0.5;
-}
-.discounts-content-price-one {
-  height: 22px;
-  width: 107px;
-}
-.discounts-content-text {
-
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
- 
-  letter-spacing: 0em;
-  text-align: left;
-  color: #212121;
-}
-
-.detailed-one,
-.detailed-two {
-  display: block;
-  position: absolute;
-  height: 17px;
-  width: 86px;
-  margin-left: 214px;
-  margin-bottom: 20px;
-}
-.detailed-text {
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 120%;
-  text-align: left;
-  color: #ff5900;
-}
-.detailed-img {
-  display: block;
-  width: 28px;
-  color: #ff5900;
-  text-align: left;
-  margin-left: 8px;
-}*/
-/* ---------- вторая карточка ---------------  */
-/*
-.title-two {
-  min-height: 25px;
-  min-width: 270px;
-  margin: 31px 45px 45px 0;
-}
-.text-two {
-  min-height: 80px;
-  min-width: 312px;
-  margin: 45px 24px 0;
-}
-.discounts-one {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-top: 15px;
-  margin-left: 24.85px;
-}
-.discounts-img-two {
-  margin-bottom: 19px;
-}
-.discounts-content-text-two {
-  min-height: 60px;
-  width: 229px;
-  text-align: left;
-}
-
-.find {
-  display: block;
-  position: relative;
-  background: url(./assets/img/fill-2.jpg) center center/cover no-repeat;
-  height: 789px;
-}
-.find-client {
-  display: block;
-  position: absolute;
-  height: 46px;
-  width: 854px;
-  margin-top: 120px;
-  margin-left: 346px;
-}
-.find-client-title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 120%;
-  text-align: center;
-  color: #ffffff;
-}
-.find-article {
-  display: block;
-  position: absolute;
-  height: 66px;
-  width: 908px;
-  margin-top: 206px;
-  margin-left: 346px;
-}
-.find-article-text {
-  width: 908px;
-  height: 66px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
-  text-align: center;
-  color: #ffffff;
-}
-.form {
-  display: block;
-  position: absolute;
-  height: 357px;
-  width: 630px;
-  margin-top: 312px;
-  margin-left: 485px;
-  background: #f4f4f4;
-}*/
-
 /* --------------------ПОДВАЛ----------------  */
 
-/* -- первый блок -- */
-
 .footer {
-  
+  width: 100%;
+  left: 0;
+  top: 0;
+  max-width: 1600px;
+  height: 583px;
+  margin: 0 auto;
+  background: orangered;
 }
-
-/* .footer-one {
-  min-width: 193px;
-  height: 330px;
-  margin-top: 100px;
-  margin-left: 200px;
+/* ------------------ первый блок------------- */
+.footer__top {
+  padding: 100px 200px 0;
+  margin: 0 auto;
+}
+._container {
+  max-width: 1600px;
+  margin: 0px auto;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.footer__column {
   background: #333333;
+
+  /* flex: 0 1 25%; */
+  padding: 0 15px;
 }
-.footer-wrap {
+.fotter__column_logo {
+  max-width: 193px;
+  min-height: auto;
+}
+.footer__label {
+  margin: 0 0 57px 0;
+}
+.footer__logo {
   display: flex;
   align-items: center;
-  justify-content: start;
 }
-.footer-logo {
-  height: 48px;
-  width: 43px;
+.name__logo {
 }
-.footer-region {
+.name__content {
+}
+.img__1 {
+}
+.img__2 {
+}
+.footer__location {
   display: flex;
-  justify-content: start;
-  align-items: center;
-  margin-top: 57px;
+  margin: 0 0 20px 0;
 }
-.region-text {
+.location__region {
+  margin: 0 4px 0 0;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
-  font-style: Medium;
   opacity: 50%;
   color: #ffffff;
 }
-.city {
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  margin-top: 3px;
-  margin-left: 4px;
-  color: #ffffff;
-
+.location__city {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 2px;
 }
-.footer-contact {
-  height: 48px;
-  margin-top: 20px;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 23.8px;
-  color: #ffffff;
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 12px 0;
 }
-.footer-INN {
-  height: 48px;
-  min-width: 158px;
-  margin-top: 12px;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #ffffff;
-  opacity: 0.5;
+.footer__data {
+  margin: 0 0 28px 0;
+  line-height: 170%;
+  opacity: 50%;
 }
-.footer-social {
+.footer__social {
   display: flex;
   justify-content: space-between;
   width: 100px;
   height: 40px;
-  margin-top: 28px;
 }
-.Telegram {
-  margin-left: 20px;
-} */
+
+
 
 /* -- второй блок -- */
 
