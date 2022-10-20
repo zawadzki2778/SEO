@@ -78,6 +78,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 177px 0 0;
 }
 .name__content {
   display: flex;
@@ -90,33 +91,34 @@ body {
   margin-top: 4.22px;
 }
 .header__title {
-  margin: 0 0 0 177px;
+  margin: 0 121px 0 0;
   font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 140%;
   color: #212121;
   opacity: 0.7;
 }
 .header__phone {
-  height: 20px;
-  min-width: 148px;
-  top: 16px;
+  margin: 0 40px 0 0;
+}
+.header__phone_link {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 600;
   color: #212121;
   opacity: 0.7;
-  margin-left: 122px;
 }
 .header__btn {
   display: flex;
   align-items: center;
-  margin: 0 0 0 39px;
   background-color: #ffffff;
   height: 52px;
   width: 223px;
   border-radius: 100px;
   padding: 16px 28px 16px 28px;
   border: 1px solid #ff5900;
+  margin: 0 0 0 0;
 }
 .btn__icon {
   width: 16.5px;
@@ -128,8 +130,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
   color: #ff5900;
 }
 /* -----ВТОРАЯ СЕКЦИЯ МЕНЮ --------*/
