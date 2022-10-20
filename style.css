@@ -35,7 +35,7 @@ body {
   /* прописываю наиболее часто исп. шрифт и его х-ки */
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 }
 .wrapper {
@@ -242,13 +242,13 @@ body {
 /* --------------------ПОДВАЛ----------------  */
 
 .footer {
-  width: 100%;
+  /* width: 100%; */
   left: 0;
   top: 0;
-  max-width: 1600px;
+  width: 1600px;
   height: 583px;
   margin: 0 auto;
-  background: orangered;
+  background: #333333;
 }
 /* ------------------ первый блок------------- */
 .footer__top {
@@ -261,34 +261,37 @@ body {
 }
 .footer__row {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  /* margin: 0 -15px; */
 }
 .footer__column {
-  background: #333333;
-
   /* flex: 0 1 25%; */
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
+
 .fotter__column_logo {
-  max-width: 193px;
-  min-height: auto;
+  width: 193px;
+  margin: 0 167px 0 0;
 }
-.footer__label {
+.footer__column_improve {
+  width: 228px;
+  margin: 0 107px 0 0;
+}
+.footer__column_development {
+  width: 210px;
+  margin: 0 107px 0 0;
+}
+.footer__column_company {
+  width: 188px;
+  margin: 0 0 0 0;
+}
+.footer__label_logo {
+  width: 193px;
   margin: 0 0 57px 0;
 }
 .footer__logo {
   display: flex;
   align-items: center;
-}
-.name__logo {
-}
-.name__content {
-}
-.img__1 {
-}
-.img__2 {
 }
 .footer__location {
   display: flex;
@@ -296,11 +299,7 @@ body {
 }
 .location__region {
   margin: 0 4px 0 0;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
   opacity: 50%;
-  color: #ffffff;
 }
 .location__city {
   border-bottom: 1px solid #ffffff;
@@ -322,8 +321,22 @@ body {
   width: 100px;
   height: 40px;
 }
+.footer__label {
+  margin: 0 0 24px 0;
+  line-height: 140%;
+  opacity: 50%;
+}
+.footer__menu {
+}
 
+.menu-footer__list {
+  line-height: 170%;
+}
+.menu-footer__item {
+}
 
+.menu-footer__link {
+}
 
 /* -- второй блок -- */
 
