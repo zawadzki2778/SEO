@@ -17,91 +17,90 @@
     <div class="wrapper">
       <!---------------------------HEADER--------------------------->
       <header class="header">
-        <div class="header__container">
-          <!--добавиляем техн.класс container-->
-          <!---------- ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------->
-          <div class="header__about">
-            <div class="header__logo name">
-              <img
-                class="name__logo"
-                src="./assets/svg/Logo.svg"
-                alt="логотип компании"
-              />
-              <div class="name__content img">
+        <div class="header__box">
+          <div class="header__container _container">
+            <!--добавиляем техн.класс container-->
+            <!---------- ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------->
+            <div class="header__about">
+              <div class="header__logo name">
                 <img
-                  class="img__1"
-                  src="./assets/svg/Home_svg.svg"
-                  alt="дом сайтов"
+                  class="name__logo"
+                  src="./assets/svg/Logo.svg"
+                  alt="логотип компании"
                 />
-                <img
-                  class="img__2"
-                  src="./assets/svg/УВЕЛИЧЕНИЕ ПРОДАЖ-svg.svg"
-                  alt="увеличение продаж"
-                />
+                <div class="name__content img">
+                  <img
+                    class="img__1"
+                    src="./assets/svg/Home_svg.svg"
+                    alt="дом сайтов"
+                  />
+                  <img
+                    class="img__2"
+                    src="./assets/svg/УВЕЛИЧЕНИЕ ПРОДАЖ-svg.svg"
+                    alt="увеличение продаж"
+                  />
+                </div>
               </div>
-            </div>
 
-            <div class="header__title">
-              Увеличиваем продажи в Вашем бизнесе!
+              <div class="header__title">
+                Увеличиваем продажи в Вашем бизнесе!
+              </div>
+              <p class="header__phone">
+                <a class="header__phone_link" href="tel:+74872792910"
+                  >+7 (4872) 79-29-10</a
+                >
+              </p>
+              <button class="header__btn btn">
+                <img
+                  src="/assets/svg/phone_header.svg"
+                  alt="phone"
+                  class="btn__icon"
+                />
+                <a class="btn__text" href="#">Заказать звонок</a>
+              </button>
             </div>
-            <p class="header__phone">
-              <a class="header__phone_link" href="tel:+74872792910"
-                >+7 (4872) 79-29-10</a
-              >
-            </p>
-            <button class="header__btn btn">
-              <img
-                src="/assets/svg/phone_header.svg"
-                alt="phone"
-                class="btn__icon"
-              />
-              <a class="btn__text" href="#">Заказать звонок</a>
-            </button>
+            <!----------------ВТОРАЯ СЕКЦИЯ МЕНЮ --------------------->
+            <nav class="header__menu menu"></nav>
+            <!--добавил блок menu для лучшей читабельности-->
+            <ul class="menu__list">
+              <li class="menu__item menu__item_first">
+                <a class="menu__link menu__link_first" href="#"
+                  >УВЕЛИЧЕНИЕ ПРОДАЖ</a
+                >
+                <img
+                  class="menu__img menu__img_first"
+                  src="./assets/svg/str.svg"
+                  alt="strela"
+                />
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">СОЗДАНИЕ САЙТОВ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">ПОДДЕРЖКА</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">БИТРИКС 24</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">О КОМПАНИИ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">ОТЗЫВЫ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">КЕЙСЫ</a>
+              </li>
+              <li class="menu__item_contacts">
+                <a class="menu__link" href="#">КОНТАКТЫ</a>
+              </li>
+              <li class="menu__item">
+                <img class="menu__img" src="./assets/svg/Lupa.svg" alt="icon" />
+              </li>
+            </ul>
           </div>
-          <!----------------ВТОРАЯ СЕКЦИЯ МЕНЮ --------------------->
-          <ul class="header__menu menu">
-            <li class="menu__item menu__item_first">
-              <a class="menu__link menu__link_first" href="#"
-                >УВЕЛИЧЕНИЕ ПРОДАЖ</a
-              >
-              <img
-                class="menu__img menu__img_first"
-                src="./assets/svg/str.svg"
-                alt="strela"
-              />
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">СОЗДАНИЕ САЙТОВ</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">ПОДДЕРЖКА</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">БИТРИКС 24</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">О КОМПАНИИ</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">ОТЗЫВЫ</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">КЕЙСЫ</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">КОНТАКТЫ</a>
-            </li>
-            <li class="menu__item_last">
-              <img
-                class="menu__img_last"
-                src="./assets/svg/Lupa.svg"
-                alt="icon"
-              />
-            </li>
-          </ul>
         </div>
       </header>
-
       <!----------------------------MAIN--------------------------->
 
       <main class="main">
