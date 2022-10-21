@@ -206,16 +206,14 @@ body {
   font-size: 68px;
   font-weight: 700;
   line-height: 110%;
-  text-align: left;
-  color: #ffffff;
+  margin: 0 0 28px 0;
 }
 .main-block__text {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 140%;
-  color: #ffffff;
-  margin-top: 28px;
+  margin: 0 0 52px 0;
 }
 .main-block__buttons {
   display: flex;
@@ -223,16 +221,15 @@ body {
   align-items: center;
   height: 62px;
   width: 735px;
-  margin-top: 52px;
 }
 .main-block__button {
   border-radius: 100px;
   padding: 20px 40px 20px 40px;
   background: #ff5900;
+  margin: 0;
 }
 .main-block__button_link-1,
 .main-block__button_link-2 {
-  font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
@@ -271,10 +268,10 @@ body {
   flex-wrap: wrap;
   /* margin: 0 -15px; */
 }
-.footer__column {
-  /* flex: 0 1 25%; */
-  /* padding: 0 15px; */
-}
+/* .footer__column {
+  flex: 0 1 25%; 
+  padding: 0 15px;
+} */
 
 .fotter__column_logo {
   min-width: 193px;
