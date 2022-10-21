@@ -65,22 +65,25 @@ body {
   border-style: solid;
   border-color: rgba(51, 51, 51, 0.1);
 }
-.header__box {
-  max-width: 1200px;
-  height: 184px;
-  margin: 0 auto;
-}
-.header__container {
-  min-height: 184px;
+.header__box-about {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1);
 }
 .header__about {
   display: flex;
-  justify-content: left;
+  justify-content: center; /* обязательно! */
+  flex-wrap: wrap;
   min-height: 104px;
   align-items: center;
-  flex-wrap: wrap; /* длчя переноса эл-ов при уменьшении экрана */
-  margin: 0px auto;
 }
+.header__menu {
+  display: flex;
+  min-height: 80px;
+  flex-wrap: wrap;
+}
+/* .header__container {
+  min-height: 184px;
+} */
+
 .header__logo {
   display: flex;
   align-items: center;
@@ -140,10 +143,7 @@ body {
   color: #ff5900;
 }
 /* -----ВТОРАЯ СЕКЦИЯ МЕНЮ --------*/
-.header__menu {
-  min-width: 80px;
-  display: flex;
-}
+
 .menu__list {
   display: flex;
   align-items: center;
@@ -183,7 +183,7 @@ body {
 .main-block {
   background: url(./assets/img/fill.jpg) 50% / cover no-repeat;
   min-height: 716px;
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   background-size: cover; /*чтобы изображение не уходило за границы блока */
 }
