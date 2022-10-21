@@ -44,16 +44,10 @@ body {
   display: flex;
   flex-direction: column;
 } */
-._container {
-  /* техн.класс, будем подставлять в вёрстку секций /блоков для ограничения*/
-  min-height: auto;
-  width: 1600px;
+/* ._container {
+  max-width: 1600px;
   margin: 0px auto;
-  /* при суженни экрана будут появлятся отступы, что бы не было прилипания */
-  /* padding: 0px 15px;
-  box-sizing: content-box; */
-}
-
+} */
 /* -----ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------*/
 .header {
   width: 100%;
@@ -180,7 +174,7 @@ body {
 .main-block {
   background: url(./assets/img/fill.jpg) 50% / cover no-repeat;
   min-height: 716px;
-  width: 1600px;
+  width: 1600px; /* для адаптива при сужении*/
   margin: 0 auto;
   background-size: cover; /*чтобы изображение не уходило за границы блока */
 }
@@ -238,6 +232,37 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #ffffff;
   backdrop-filter: blur(2.5px);
+}
+/* ----секция ЛУЧШИЕ РЕШЕНИЯ И ПРЕДЛОЖЕНИЯ----- */
+.solutions {
+  height: 1386px;
+  width: 1600px;
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+ul {
+  /* обнулил bootstrap */
+  padding: 0;
+}
+.solution__wrap {
+  
+  max-width: 1200px;
+  height: 1156px;
+  padding-top: 120px;
+  margin: 0 auto;
+}
+.solutions__title {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #212121;
+}
+.card {
+  height: 502px;
+  width: 360px;
+  border: 1px solid #333333;
+  opacity: 0.3;
 }
 
 /* --------------------ПОДВАЛ----------------  */
