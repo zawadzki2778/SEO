@@ -263,7 +263,6 @@ body {
   margin: 0 0 40px 0;
 }
 .solutions__card {
-  position: relative;
   flex: 0 1 33.333%;
   height: 504px;
   max-width: 360px;
@@ -287,8 +286,6 @@ body {
   color: rgba(33, 33, 33, 1);
   margin: 0 auto 20px;
   text-align: center;
-}
-.title__card {
 }
 .card__text {
   height: 80px;
@@ -345,7 +342,7 @@ body {
 .card__offer {
   display: flex;
   height: 42px;
-  margin: 0 0 0 24.85px;
+  margin: 0 0 32px 24.85px;
 }
 .offer__percent {
   display: flex;
@@ -369,14 +366,14 @@ body {
   line-height: 140%;
   color: #212121;
 }
-.span {
+.span__1 {
   display: block;
   margin-top: 3px;
 }
 .card__detail {
   display: flex;
   position: absolute;
-
+  margin: 0 0 32px 0;
 }
 .detail__text {
   font-size: 14px;
@@ -385,10 +382,14 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #ff5900;
-  margin: 0 8px 0 0;
+  margin: 0 8px 0 214px;
 }
-.detail__arrow {
+
+.offer__logo_2 {
+  height: 36px;
+  width: 38px;
 }
+
 /* --------------------ПОДВАЛ----------------  */
 
 .footer {
