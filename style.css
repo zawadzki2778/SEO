@@ -240,12 +240,7 @@ body {
   margin: 0 auto;
   background: #f8f8f8;
 }
-ul {
-  /* обнулил bootstrap */
-  padding: 0;
-}
 .solution__wrap {
-  
   max-width: 1200px;
   height: 1156px;
   padding-top: 120px;
@@ -257,14 +252,143 @@ ul {
   font-weight: 700;
   line-height: 120%;
   color: #212121;
+  margin: 0 0 60px 0;
 }
-.card {
-  height: 502px;
-  width: 360px;
-  border: 1px solid #333333;
-  opacity: 0.3;
+.solutions__row {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.solution__row_1 {
+  margin: 0 0 40px 0;
+}
+.solutions__card {
+  position: relative;
+  flex: 0 1 33.333%;
+  height: 504px;
+  max-width: 360px;
+  border: 1px solid rgba(51, 51, 51, 0.3); /* вместо Hex применил rgba, что бы opasity 0.3 применилось только на рамку*/
+}
+.solutions__card:not(:last-child) {
+  margin: 0 60px 0 0;
+}
+.card__logo {
+  margin: 0 0 31px 0;
+}
+.card__title {
+  height: 50px;
+  width: 296px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(33, 33, 33, 1);
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.title__card {
+}
+.card__text {
+  height: 80px;
+  width: 312px;
+  line-height: 140%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(33, 33, 33, 1);
+  opacity: 0.5;
+  margin: 0 auto 20px;
+}
+.card__line {
+  height: 1px;
+  width: 312px;
+  background: rgba(51, 51, 51, 1);
+  opacity: 0.2;
+  margin: 0 auto 32px;
+}
+.card__price {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15.7px 31.83px;
+}
+.price__logo {
+  height: 21.91px;
+  width: 20.91px;
+  margin: 0 22.26px 0 0;
+}
+.price__fact {
+  display: flex;
+  align-items: center;
+}
+.part__1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  margin: 2px 4px 0 0;
+}
+.part__number {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #ff5900;
+  margin: 0 7px 0 0;
+}
+.part__3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #ff5900;
+  margin: 1px 0 0 0;
 }
 
+.card__offer {
+  display: flex;
+  height: 42px;
+  margin: 0 0 0 24.85px;
+}
+.offer__percent {
+  display: flex;
+}
+.offer__logo {
+  margin: 0 12px 0 0;
+}
+.offer__about {
+  display: flex;
+  flex-direction: column;
+}
+.offer__price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #212121;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.offer__text {
+  line-height: 140%;
+  color: #212121;
+}
+.span {
+  display: block;
+  margin-top: 3px;
+}
+.card__detail {
+  display: flex;
+  position: absolute;
+
+}
+.detail__text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff5900;
+  margin: 0 8px 0 0;
+}
+.detail__arrow {
+}
 /* --------------------ПОДВАЛ----------------  */
 
 .footer {
