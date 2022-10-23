@@ -368,8 +368,9 @@ body {
   display: block;
   margin-top: 3px;
 }
-.card__detail {
+.detail__block {
   display: flex;
+  width: 122px;
 }
 .detail__text {
   font-size: 14px;
@@ -378,7 +379,6 @@ body {
   color: #ff5900;
   margin: 0 8px 0 214px;
 }
-
 .offer__logo_2 {
   height: 36px;
   width: 38px;
