@@ -446,7 +446,6 @@ body {
   height: 55px;
   width: 510px;
   background: #f4f4f4;
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -455,7 +454,7 @@ body {
   opacity: 0.4;
 }
 ::placeholder {
-  transform: translateY(5px) translateY(50%);
+  transform: translateY(-2px) translateY(50%);
 }
 /*---------checkbox-----------*/
 .form__check {
@@ -509,6 +508,7 @@ body {
 }
 /* ------------------ первый блок------------- */
 .footer__top {
+  height: 532px;
   padding: 100px 200px 0;
   margin: 0 auto;
 }
@@ -582,4 +582,22 @@ body {
 }
 .menu-footer__list {
   line-height: 170%;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  opacity: 0.3;
+}
+.footer__copy,
+.footer__map {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 120%;
+  color: rgba(255, 255, 255);
+  opacity: 0.3;
 }
