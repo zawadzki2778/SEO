@@ -279,19 +279,17 @@ body {
   width: 296px;
   font-size: 18px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 140%;
   letter-spacing: 0.01em;
   text-align: center;
   text-transform: uppercase;
   color: rgba(33, 33, 33, 1);
   margin: 0 auto 20px;
-  text-align: center;
 }
 .card__text {
   height: 80px;
   width: 312px;
   line-height: 140%;
-  letter-spacing: 0em;
   text-align: center;
   color: rgba(33, 33, 33, 1);
   opacity: 0.5;
@@ -327,14 +325,14 @@ body {
 .part__number {
   font-size: 18px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 140%;
   color: #ff5900;
   margin: 0 7px 0 0;
 }
 .part__3 {
   font-size: 18px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 140%;
   color: #ff5900;
   margin: 1px 0 0 0;
 }
@@ -372,15 +370,11 @@ body {
 }
 .card__detail {
   display: flex;
-  position: absolute;
-  margin: 0 0 32px 0;
 }
 .detail__text {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #ff5900;
   margin: 0 8px 0 214px;
 }
