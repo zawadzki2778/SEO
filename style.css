@@ -200,7 +200,6 @@ body {
   margin: 0 0 28px 0;
 }
 .main-block__text {
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 140%;
@@ -382,6 +381,119 @@ body {
 .offer__logo_2 {
   height: 36px;
   width: 38px;
+}
+/*----------------------FORM-----------------*/
+.form__block {
+  background: url(./assets/img/fill_2.jpg) 50% / cover no-repeat;
+  min-height: 789px;
+  width: 1600px; /* без min/max! для адаптива при сужении*/
+  margin: 0 auto;
+  background-size: cover;
+}
+.form-block__wrap {
+  display: flex;
+  max-width: 908px;
+  margin: 0px auto;
+}
+.form-block__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 908px;
+  padding-top: 120px;
+}
+.form-block__title {
+  height: 46px;
+  width: 854px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+  margin: 0 0 40px 0;
+}
+.form-block__text {
+  height: 66px;
+  width: 908px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 357px;
+  width: 630px;
+  left: 139px;
+  top: 192px;
+  background: #f4f4f4;
+}
+.form__input {
+  height: 55px;
+  width: 510px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+  margin: 25px 0 16px 0;
+}
+.form__input_1 {
+  height: 55px;
+  width: 510px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+  margin: 0 0 24px 0;
+}
+.form__control {
+  height: 55px;
+  width: 510px;
+  background: #f4f4f4;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #333333;
+  opacity: 0.4;
+}
+::placeholder {
+  transform: translateY(5px) translateY(50%);
+}
+/*---------checkbox-----------*/
+.form__check {
+  display: flex;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+.form__check_input {
+  height: 16px;
+  width: 16px;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  opacity: 0.5;
+  margin: 0 10px 0 0;
+}
+.form__check_label {
+  height: 20px;
+  width: 480px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #212121;
+}
+.form__button {
+  align-items: left;
+  height: 62px;
+  width: 250px;
+  border-radius: 100px;
+  padding: 20px 40px 20px 40px;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  margin: 0 0 0 -260px;
+  cursor: pointer;
 }
 
 /* --------------------ПОДВАЛ----------------  */
