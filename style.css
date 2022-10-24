@@ -12,6 +12,9 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+a:hover {
+  color: #ff5900;
+}
 ul,
 ol,
 li {
@@ -43,10 +46,10 @@ body {
   display: flex;
   flex-direction: column;
 } */
-/* ._container {
+.container {
   max-width: 1600px;
   margin: 0px auto;
-} */
+}
 
 /* -----ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------*/
 .header {
@@ -56,9 +59,6 @@ body {
   width: 1600px;
   height: 184px;
   margin: 0 auto;
-  border-width: 0 1px 0;
-  border-style: solid;
-  border-color: rgba(51, 51, 51, 0.1);
 }
 .header__box-about {
   border-bottom: 1px solid rgba(51, 51, 51, 0.1);
@@ -171,11 +171,14 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-.menu__img_first {
+.img-str {
   margin-left: 4px;
   cursor: pointer;
 }
-
+.img-lupa {
+  width: 20px;
+  height: 20px;
+}
 /* ----------третья секция MAIN------------*/
 
 .main {
@@ -203,7 +206,6 @@ body {
   padding-top: 170px;
 }
 .main-block__title {
-  font-family: Montserrat;
   font-size: 68px;
   font-weight: 700;
   line-height: 110%;
@@ -388,6 +390,10 @@ body {
 .detail__block {
   display: flex;
   width: 122px;
+}
+.detail__block:hover {
+  text-decoration-line: underline;
+  transition: all 0.3s linear;
 }
 .detail__text {
   font-size: 14px;
