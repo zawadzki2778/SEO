@@ -481,6 +481,7 @@ body {
   text-align: left;
   color: #333333;
   opacity: 0.4;
+  outline: none; /* убрал обводку и сделал появление курсора*/
 }
 /* ::placeholder {
   transform: translateY(-2px) translateY(50%);
@@ -593,6 +594,11 @@ body {
 }
 .location__city {
   border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+}
+.location__city:hover {
+  color: #ff5900;
+  border-bottom: 1px solid #ff5900;
   padding-bottom: 2px;
 }
 .footer__contact {
