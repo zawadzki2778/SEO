@@ -1,4 +1,4 @@
 # тех.задание для ДОМ САЙТОВ 
 
-https://github.com/zawadzki2778/SEO.git  
+https://zawadzki2778.github.io/SEO/
  ТЗ: верстка сайта по макету
