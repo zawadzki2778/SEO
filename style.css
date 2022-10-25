@@ -34,15 +34,14 @@ h6 {
 }
 html,
 body {
-  height: 100%;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
 }
 .container {
+  margin: 0 auto;
   max-width: 1600px;
-  margin: 0px auto;
 }
 /* -----ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------*/
 .header {
@@ -172,12 +171,17 @@ body {
   height: 20px;
 }
 /* ----------третья секция MAIN------------*/
+
 .main-block {
   background: url(./assets/img/fill.jpg) 50% / cover no-repeat;
   min-height: 716px;
-  width: 1600px; /* для адаптива при сужении*/
+  width: 1600px;
   margin: 0 auto;
   background-size: cover; /*чтобы изображение не уходило за границы блока */
+  /* обычный вариант 3x stiles для картинок
+  display: block;
+  min-width: 100%;    
+  height: auto; */
 }
 .main-block__wrap {
   display: flex;
