@@ -51,7 +51,6 @@ body {
   max-width: 1600px;
   margin: 0px auto;
 }
-
 /* -----ПЕРВАЯ СЕКЦИЯ С КОНТАКТАМИ --------*/
 .header {
   width: 100%;
@@ -611,9 +610,6 @@ body {
   justify-content: space-between;
   width: 100px;
   height: 40px;
-}
-.social__vk:hover {
-  background: #ff5900;
 }
 .footer__label {
   margin: 0 0 24px 0;
